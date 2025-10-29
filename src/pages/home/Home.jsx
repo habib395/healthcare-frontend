@@ -4,6 +4,7 @@ import CategoryCard from '../categoryCard/CategoryCard';
 import Time from '../time/Time';
 import WhyDoc from '../whyDoc.jsx/WhyDoc';
 import Clinic from '../clinic/Clinic';
+import BuyOnline from '../buyOnline/BuyOnline';
 
 const Home = () => {
     return (
@@ -18,6 +19,9 @@ const Home = () => {
             <WhyDoc />
         </div>
             <Clinic />
+            <div className='border-b-2'>
+            <BuyOnline />
+            </div>
         </div>
     );
 };
