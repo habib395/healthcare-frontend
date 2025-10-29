@@ -1,4 +1,5 @@
 import React from 'react';
+import { CiStethoscope } from "react-icons/ci";
 
 const Navbar = () => {
     return (
@@ -35,6 +36,7 @@ const Navbar = () => {
       </ul>
     </div>
     <a className="btn btn-ghost text-2xl">
+      <CiStethoscope className='text-4xl'/>
         <span className='text-blue-500'>Doc</span>Time</a>
   </div>
   <div className="navbar-center hidden lg:flex">

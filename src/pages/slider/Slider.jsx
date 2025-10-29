@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import sliderImg1 from "../../assets/silder/img-one.jpg";
-import sliderImg2 from "../../assets/silder/img-two.jpg";
+import sliderImg1 from "../../assets/slider/img-one.jpg";
+import sliderImg2 from "../../assets/slider/img-two.jpg";
 import { CiSearch } from "react-icons/ci";
 
 const images = [sliderImg2, sliderImg1];
@@ -23,14 +23,14 @@ const Slider = () => {
       setCurrent((prev) => (prev === total - 1 ? 0 : prev + 1));
     };
   return (
-    <div className="w-11/12 mx-auto my-4">
+    <div className="my-4">
       <div>
         <div className="flex items-center">
           <input
             className="relative input input-bordered border w-full border-gray-300 py-8 px-4 mb-5"
             placeholder="Search by doctor name / code or department"
           />
-          <div className="absolute right-0 pr-20 pb-5 text-3xl">
+          <div className="absolute right-0 pr-32 pb-5 text-3xl">
           <CiSearch />
           </div>
         </div>
