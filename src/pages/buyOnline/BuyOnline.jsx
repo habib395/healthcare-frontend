@@ -25,6 +25,7 @@ const BuyOnline = () => {
                 *Conditions apply
                 </p>
                 <button className="btn bg-blue-600 text-xl text-white px-14 py-6 font-semibold my-6">Buy Online</button>
+                <hr />
             </div>
         </div>
     );

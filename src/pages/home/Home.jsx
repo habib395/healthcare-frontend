@@ -5,6 +5,7 @@ import Time from '../time/Time';
 import WhyDoc from '../whyDoc.jsx/WhyDoc';
 import Clinic from '../clinic/Clinic';
 import BuyOnline from '../buyOnline/BuyOnline';
+import BookTest from '../bookTest/BookTest';
 
 const Home = () => {
     return (
@@ -21,6 +22,9 @@ const Home = () => {
             <Clinic />
             <div className='border-b-2'>
             <BuyOnline />
+            </div>
+            <div className="w-5/6 mx-auto">
+            <BookTest />
             </div>
         </div>
     );
