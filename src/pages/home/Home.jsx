@@ -14,6 +14,7 @@ import Reviews from '../reviews/Reviews';
 import Download from '../download/Download';
 import Blogs from '../blogs/Blogs';
 import Faq from '../faq/Faq';
+import Contact from '../contact/Contact';
 
 const Home = () => {
     return (
@@ -48,6 +49,7 @@ const Home = () => {
             <hr />
             <Blogs />
             <Faq />
+            <Contact />
         </div>
     );
 };
