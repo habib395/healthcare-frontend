@@ -6,6 +6,7 @@ import WhyDoc from '../whyDoc.jsx/WhyDoc';
 import Clinic from '../clinic/Clinic';
 import BuyOnline from '../buyOnline/BuyOnline';
 import BookTest from '../bookTest/BookTest';
+import SecureFuture from '../secureFuture/SecureFuture';
 
 const Home = () => {
     return (
@@ -26,6 +27,7 @@ const Home = () => {
             <div className="w-5/6 mx-auto">
             <BookTest />
             </div>
+            <SecureFuture />
         </div>
     );
 };
