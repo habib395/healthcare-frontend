@@ -1,5 +1,4 @@
 import React from 'react';
-import imageOne from "../../assets/slider/doctor.jpg"
 import Button from '../../shared/Button';
 import { IoIosTimer } from "react-icons/io";
 import { GiTransparentTubes } from "react-icons/gi";
@@ -9,9 +8,9 @@ const BookTest = () => {
     return (
         <div className='py-16'>
             <div className='w-1/2'>
-                <img src={imageOne} alt="diagnostic test" className='relative w-[600px] h-[400px] rounded-2xl' />
-                <img src={imageOne} alt="diagnostic test" className='absolute border-2 top-[5460px] left-[315px] w-[400px] h-[300px] rounded-2xl' />
-                <img src={imageOne} alt="diagnostic test" className='relative mt-10 w-[170px] h-[170px] rounded-2xl' />
+                <img src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg" alt="diagnostic test" className='relative w-[600px] h-[400px] rounded-2xl' />
+                <img src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg" alt="diagnostic test" className='absolute border-2 top-[5460px] left-[315px] w-[400px] h-[300px] rounded-2xl' />
+                <img src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg" alt="diagnostic test" className='relative mt-10 w-[170px] h-[170px] rounded-2xl' />
             </div>
             <div>
                 <h2 className='text-blue-400 pt-10 pb-4 text-2xl'>Home Diagnostic Service</h2>

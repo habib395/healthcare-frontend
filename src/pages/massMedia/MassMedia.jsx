@@ -1,6 +1,5 @@
 import React from "react";
 import Button from '../../shared/Button';
-import imageOne from "../../assets/slider/doctor.jpg"
 
 const MassMedia = () => {
   return (
@@ -12,7 +11,7 @@ const MassMedia = () => {
             <h2 className="py-4 pl-4 italic font-bold text-2xl">The Daily Star</h2>
           <figure className="p-4">
             <img
-              src={imageOne}
+              src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
               alt="Shoes"
               className="rounded-xl"
             />
@@ -29,7 +28,7 @@ const MassMedia = () => {
             <h2 className="py-4 pl-4 italic font-bold text-2xl">The Daily Star</h2>
           <figure className="p-4">
             <img
-              src={imageOne}
+              src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
               alt="Shoes"
               className="rounded-xl"
             />

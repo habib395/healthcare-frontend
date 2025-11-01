@@ -1,5 +1,4 @@
 import React from "react";
-import imageOne from "../../assets/slider/doctor.jpg";
 import Button from "../../shared/Button";
 
 const Partner = () => {
@@ -7,12 +6,12 @@ const Partner = () => {
     <div className="py-10">
       <div className="w-1/2">
         <img
-          src={imageOne}
+          src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
           alt=""
           className="relative h-[400px] w-[400px] rounded-2xl"
         />
         <img
-          src={imageOne}
+          src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
           alt=""
           className="absolute top-[7850px] border-2 left-72 h-[400px] w-[400px] rounded-2xl"
         />

@@ -1,12 +1,12 @@
 import React from 'react';
-import deliveryMan from "../../assets/slider/doctor.jpg"
+// import deliveryMan from "../../assets/slider/doctor.jpg"
 
 const BuyOnline = () => {
     return (
         <div className='w-11/12 mx-auto pt-20 pb-10 flex'>
             <div className='w-1/2 p-10'>
             <div className='relative bg-blue-300 w-[600px] left-32 rounded-3xl z-50'>
-                <img src={deliveryMan} alt="deliver man image" className='h-[650px]'/>
+                <img src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg" alt="deliver man image" className='h-[650px]'/>
             </div>
                 <p className='absolute bg-blue-300 top-[4300px] w-[500px] h-[400px] rounded-3xl z-40'>
                 </p>

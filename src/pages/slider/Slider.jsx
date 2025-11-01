@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import sliderImg1 from "../../assets/slider/img-one.jpg";
-import sliderImg2 from "../../assets/slider/img-two.jpg";
+import sliderImg2 from "../../assets/slider/doctor-two.jpg";
 import { CiSearch } from "react-icons/ci";
 
 const images = [sliderImg2, sliderImg1];
@@ -23,7 +23,7 @@ const Slider = () => {
       setCurrent((prev) => (prev === total - 1 ? 0 : prev + 1));
     };
   return (
-    <div className="my-4">
+    <div className="my-4 z-0">
       <div>
         <div className="flex items-center">
           <input

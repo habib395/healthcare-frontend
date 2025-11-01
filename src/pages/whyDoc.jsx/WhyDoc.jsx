@@ -1,8 +1,4 @@
 import React from "react";
-import whyImageOne from "../../assets/slider/doctor.jpg";
-import whyImageTwo from "../../assets/slider/drug.jpg";
-import whyImageThree from "../../assets/slider/test.jpg";
-import whyImageFour from "../../assets/slider/img-two.jpg";
 import { FaVideo } from "react-icons/fa";
 
 const WhyDoc = () => {
@@ -11,22 +7,22 @@ const WhyDoc = () => {
       <div>
         <div className="w-2/3 bg-gray-50 rounded-lg">
           <img
-            src={whyImageOne}
+            src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
             alt=""
             className="relative left-20  w-72 h-72 border-2 rounded-lg border-white"
           />
           <img
-            src={whyImageTwo}
+            src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
             alt=""
             className="absolute top-[1565px] left-[420px] w-[600px] h-[600px] border-2 rounded-xl border-white p-10"
           />
           <img
-            src={whyImageThree}
+            src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
             alt=""
             className="absolute border-2 top-[1800px] w-[500px] h-[400px] rounded-xl border-white"
           />
           <img
-            src={whyImageFour}
+            src='https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg'
             alt=""
             className="absolute border-2 top-[1960px] left-[500px] w-[200px] h-[200px] rounded-xl border-white"
           />
@@ -55,7 +51,7 @@ const WhyDoc = () => {
           <div className="w-1/2 border-b-4 border-l-4 rounded-xl">
             <FaVideo className="absolute text-9xl z-50  bg-white border-2 rounded-full p-4" />
             <img
-              src={whyImageOne}
+              src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
               alt="doctor image"
               className="relative z-0 rounded-full w-[500px] h-[500px]"
             />
