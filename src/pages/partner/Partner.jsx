@@ -6,12 +6,12 @@ const Partner = () => {
     <div className="py-10">
       <div className="w-1/2">
         <img
-          src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
+          src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg"
           alt=""
           className="relative h-[400px] w-[400px] rounded-2xl"
         />
         <img
-          src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
+          src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg"
           alt=""
           className="absolute top-[7850px] border-2 left-72 h-[400px] w-[400px] rounded-2xl"
         />

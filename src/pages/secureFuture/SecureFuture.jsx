@@ -6,7 +6,7 @@ const SecureFuture = () => {
         <div className='bg-blue-100 py-10'>
             <div className='w-5/6 mx-auto'>
             <div className='w-1/2 py-16'>
-                <img src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg" alt="Happy family" className='rounded-2xl w-[500px] h-[500px]' />
+                <img src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg" alt="Happy family" className='rounded-2xl w-[500px] h-[500px]' />
             </div>
             <div>
             <h3 className='text-2xl text-blue-600 py-4'>Become a Premium Member</h3>

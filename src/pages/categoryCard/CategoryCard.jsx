@@ -7,7 +7,7 @@ const CategoryCard = () => {
       <div className="card bg-base-100 w-96 border">
         <figure>
           <img
-            src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
+            src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg"
             alt="Shoes"
             className="rounded-xl border-none h-52"
           />
@@ -20,7 +20,7 @@ const CategoryCard = () => {
       <div className="card bg-base-100 w-96 shadow-xl">
         <figure>
           <img
-            src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
+            src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg"
             alt="Shoes"
             className="rounded-xl h-52"
           />
@@ -33,7 +33,7 @@ const CategoryCard = () => {
       <div className="card bg-base-100 w-96 shadow-xl">
         <figure>
           <img
-            src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
+            src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg"
             alt="Shoes"
             className="rounded-xl h-52"
           />
@@ -46,7 +46,7 @@ const CategoryCard = () => {
       <div className="card bg-base-100 w-96 shadow-xl">
         <figure>
           <img
-            src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
+            src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg"
             alt="Shoes"
             className="rounded-xl h-52"
           />
@@ -59,7 +59,7 @@ const CategoryCard = () => {
       <div className="card bg-base-100 w-96 shadow-xl">
         <figure>
           <img
-            src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
+            src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg"
             alt="Shoes"
             className="rounded-xl h-52"
           />
@@ -72,7 +72,7 @@ const CategoryCard = () => {
       <div className="card bg-base-100 w-96 shadow-xl">
         <figure>
           <img
-            src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
+            src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg"
             alt="Shoes"
             className="rounded-xl h-52"
           />

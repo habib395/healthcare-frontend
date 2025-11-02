@@ -8,19 +8,19 @@ const HospitalPartner = () => {
       </h2>
       <div className="flex gap-10 items-center justify-center">
         <div>
-          <img src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg" alt="" className="w-32 h-20"/>
+          <img src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg" alt="" className="w-32 h-20"/>
         </div> |
         <div>
-        <img src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg" alt="" className="w-32 h-20"/>  
+        <img src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg" alt="" className="w-32 h-20"/>  
         </div> |
         <div>
-        <img src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg" alt="" className="w-32 h-20"/>
+        <img src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg" alt="" className="w-32 h-20"/>
         </div> |
         <div>
-        <img src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg" alt="" className="w-32 h-20"/>  
+        <img src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg" alt="" className="w-32 h-20"/>  
         </div> |
         <div>
-        <img src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg" alt="" className="w-32 h-20"/>        
+        <img src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg" alt="" className="w-32 h-20"/>        
         </div>
       </div>
     </div>

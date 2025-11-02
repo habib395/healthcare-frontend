@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import sliderImg1 from "../../assets/slider/img-one.jpg";
+import sliderImg1 from "../../assets/slider/doctor.jpg";
 import sliderImg2 from "../../assets/slider/doctor-two.jpg";
 import { CiSearch } from "react-icons/ci";
 

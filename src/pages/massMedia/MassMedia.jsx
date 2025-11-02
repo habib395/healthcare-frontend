@@ -11,7 +11,7 @@ const MassMedia = () => {
             <h2 className="py-4 pl-4 italic font-bold text-2xl">The Daily Star</h2>
           <figure className="p-4">
             <img
-              src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
+              src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg"
               alt="Shoes"
               className="rounded-xl"
             />
@@ -28,7 +28,7 @@ const MassMedia = () => {
             <h2 className="py-4 pl-4 italic font-bold text-2xl">The Daily Star</h2>
           <figure className="p-4">
             <img
-              src="https://i.ibb.co/KjGVc5pP/biochemistry-holding-science-digitally-generated-helix.jpg"
+              src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg"
               alt="Shoes"
               className="rounded-xl"
             />
