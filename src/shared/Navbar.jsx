@@ -3,7 +3,7 @@ import { CiStethoscope } from "react-icons/ci";
 
 const Navbar = () => {
     return (
-      <div className='w-11/12 mx-auto py-4'>
+      <div className='w-11/12 mx-auto sm:py-4'>
           <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
@@ -24,35 +24,48 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[50] mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
+        <li><a>Consultant</a></li>
+        <li><a>Order Medicine</a></li>
+        <li><a>Home Diagnostic</a></li>
+        <li><a>Health Plan</a></li>
         <li>
-          <a>Parent</a>
-          <ul className="p-2 z-[50]">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
-      </ul>
-    </div>
-    <a className="btn btn-ghost text-2xl">
-      <CiStethoscope className='text-4xl'/>
-        <span className='text-blue-500'>Doc</span>Time</a>
-  </div>
-  <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1 text-xl flex items-center gap-16">
-      <li>Order Medicine</li>
-      <li>Home Diagnostic</li>
-      <li>Health Plan</li>
-      <li>
-        <details>
-          <summary>Blogs</summary>
+          <a>Blogs</a>
           <ul className="p-2 z-[50]">
             <li><a>English</a></li>
             <li><a>Bangla</a></li>
           </ul>
-        </details>
-      </li>
+        </li>
+        <li>
+          <a>More</a>
+          <ul className="p-2 z-[50]">
+          <li><a>For Doctors</a></li>
+            <li><a>CareGlobal</a></li>
+            <li><a>Employers</a></li>
+            <li><a>Data</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <a className="btn btn-ghost text-xl">
+      <CiStethoscope className='text-xl sm:text-4xl'/>
+        <span className='text-blue-500'>Doc</span>Time</a>
+  </div>
+  <div className="navbar-center hidden lg:flex">
+    <ul className="menu menu-horizontal px-1 text-base flex  justify-center items-center gap-16">
+      <li>Consultant</li>
+      <li>Order Medicine</li>
+      <li>Home Diagnostic</li>
+      <li>Health Plan</li>
+      <li>
+  <details>
+    <summary>Blogs</summary> 
+    <ul className="p-2 z-[50]"> 
+      <li><a>English</a></li>
+      <li><a>Bangla</a></li>
+    </ul>
+  </details>
+</li>
       <li>
         <details>
           <summary>More</summary>
@@ -65,11 +78,11 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <li>|</li>
+      <li className='text-gray-400 text-base font-thin'>|</li>
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-blue-500 text-xl text-white">Log in</a>
+    <a className="btn btn-sm bg-blue-500 text-xs sm:text-xl text-white">Log in</a>
   </div>
 </div>
       </div>

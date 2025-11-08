@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import sliderImg1 from "../../assets/slider/doctor.jpg";
-import sliderImg2 from "../../assets/slider/doctor-two.jpg";
+import sliderImg2 from "../../assets/slider/doctor-three.jpg";
 import { CiSearch } from "react-icons/ci";
 
 const images = [sliderImg2, sliderImg1];
@@ -27,17 +27,17 @@ const Slider = () => {
       <div>
         <div className="flex items-center">
           <input
-            className="relative input input-bordered border w-full border-gray-300 py-8 px-4 mb-5"
+            className="relative text-[8px] sm:text-xl input input-bordered border w-full border-gray-300 sm:py-8 px-4 mb-5"
             placeholder="Search by doctor name / code or department"
           />
-          <div className="absolute right-0 pr-32 pb-5 text-3xl">
+          <div className="absolute right-0 pr-8 sm:pr-32 pb-5 text-lg sm:text-3xl rounded-xl">
           <CiSearch />
           </div>
         </div>
       </div>
       <div>
       <div className="relative w-full mx-auto">
-      <div className="relative w-full h-[250px] sm:h-[400px] md:h-[500px] overflow-hidden shadow-lg">
+      <div className="relative w-full h-[100px] sm:h-[400px] md:h-[500px] overflow-hidden rounded-xl shadow-lg">
         {images.map((img, index) => (
           <img
             key={index}

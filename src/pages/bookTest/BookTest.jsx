@@ -8,12 +8,12 @@ const BookTest = () => {
     return (
         <div className='py-16'>
             <div className='w-1/2'>
-                <img src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg" alt="diagnostic test" className='relative w-[600px] h-[400px] rounded-2xl' />
-                <img src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg" alt="diagnostic test" className='absolute border-2 top-[5460px] left-[315px] w-[400px] h-[300px] rounded-2xl' />
-                <img src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg" alt="diagnostic test" className='relative mt-10 w-[170px] h-[170px] rounded-2xl' />
+                <img src="https://i.ibb.co/PvFYptWv/test.jpg" alt="diagnostic test" className='relative w-[600px] h-[400px] rounded-2xl' />
+                <img src="https://i.ibb.co/84LkdGj2/front-close-view-young-male-chemist-white-special-suit-holding-little-flask-with-green-solution-inje.jpg" alt="diagnostic test" className='absolute border-2 border-white top-[5460px] left-[315px] mt-[340px] w-[406px] h-[300px] rounded-2xl' />
+                <img src="https://i.ibb.co/qFnmnNqH/drug.jpg" alt="diagnostic test" className='relative mt-4 w-[180px] h-[170px] rounded-2xl' />
             </div>
             <div>
-                <h2 className='text-blue-400 pt-10 pb-4 text-2xl'>Home Diagnostic Service</h2>
+                <h2 className='text-blue-400 pt-28 pb-4 text-2xl'>Home Diagnostic Service</h2>
                 <h1 className='text-6xl font-bold'>Sample collection at your Doorstep</h1>
                 <p className='text-3xl text-gray-600 py-6'>Making healthcare easily accessible anytime, anywhere.</p>
                 <div className='flex gap-2 items-center py-2'>

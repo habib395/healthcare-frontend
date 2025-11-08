@@ -3,8 +3,11 @@ import { FaStethoscope } from "react-icons/fa";
 import { FaTwitter, FaYoutube, FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { useGetFooterInfoQuery } from "../pages/provider/home/footerApiSlice";
 
 const Footer = () => {
+  const { data: footerInfo } = useGetFooterInfoQuery()
+  console.log(footerInfo)
   return (
     <div>
       <div className="bg-blue-600 text-white py-16">

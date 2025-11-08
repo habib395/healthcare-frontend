@@ -8,7 +8,9 @@ const MainLayout = () => {
         <div>
             <Navbar />
             <Outlet></Outlet>
+            <div className="hidden sm:block">
             <Footer />
+            </div>
         </div>
     );
 };

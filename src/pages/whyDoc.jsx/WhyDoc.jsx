@@ -1,36 +1,38 @@
 import React from "react";
 import { FaVideo } from "react-icons/fa";
+import bgDoctor from "../../assets/slider/doctor-bg.png"
+
 
 const WhyDoc = () => {
   return (
     <div>
       <div>
-        <div className="w-2/3 bg-gray-50 rounded-lg">
+        <div className="w-2/3 bg-gray-50 rounded-lg pt-20">
           <img
-            src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg"
+            src={bgDoctor}
             alt=""
-            className="relative left-20  w-72 h-72 border-2 rounded-lg border-white"
+            className="relative left-20  w-72 h-72 -mt-16 rounded-lg border-none"
+          />
+          <img
+            src="https://i.ibb.co/d46g7zZ2/portrait-happy-family-park.jpg"
+            alt=""
+            className="absolute top-[1900px] left-[420px] w-[600px] h-[500px] border-2 rounded-2xl border-white"
           />
           <img
             src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg"
             alt=""
-            className="absolute top-[1565px] left-[420px] w-[600px] h-[600px] border-2 rounded-xl border-white p-10"
-          />
-          <img
-            src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg"
-            alt=""
-            className="absolute border-2 top-[1800px] w-[500px] h-[400px] rounded-xl border-white"
+            className="absolute border-2 top-[2150px] w-[500px] h-[400px] rounded-xl border-white"
           />
           <img
             src='https://i.ibb.co/CsH6ynYW/doctor-two.jpg'
             alt=""
-            className="absolute border-2 top-[1960px] left-[500px] w-[200px] h-[200px] rounded-xl border-white"
+            className="absolute border-2 top-[2300px] left-[500px] w-[200px] h-[200px] rounded-xl border-white"
           />
         </div>
         <div className="w-1/3"></div>
       </div>
       <div>
-        <h4 className="mt-80 text-blue-400 text-xl">Why DocTime?</h4>
+        <h4 className="mt-96 text-blue-400 text-xl">Why DocTime?</h4>
         <h1 className="text-6xl font-bold py-3">
           Bangladesh’s leading healthcare app for online doctor consultation
         </h1>
@@ -48,19 +50,22 @@ const WhyDoc = () => {
       </div>
       <div>
         <div>
-          <div className="w-1/2 border-b-4 border-l-4 rounded-xl">
-            <FaVideo className="absolute text-9xl z-50  bg-white border-2 rounded-full p-4" />
+          <div className="absolute w-1/2 half-border bg-gradient-to-right from-white to-blue-50">
+            <FaVideo className="absolute text-9xl z-50  bg-white border-1 rounded-full p-4" />
             <img
-              src="https://i.ibb.co/CsH6ynYW/doctor-two.jpg"
+              src="https://i.ibb.co/bg2PCCFt/doctor.jpg"
               alt="doctor image"
-              className="relative z-0 rounded-full w-[500px] h-[500px]"
+              className="relative z-20 rounded-full w-[490px] h-[495px]"
             />
+            <div className="bg-blue-100 h-[300px] w-[300px] z-10 -mt-[302px] relative rounded-xl ml-[2px]">
+
+            </div>
           </div>
           <div className="w-1/2"></div>
         </div>
       </div>
-      <div>
-        <h2 className="text-6xl font-bold py-10">
+      <div className="pt-[500px]">
+        <h2 className="text-6xl font-bold">
           Access convenient online Healthcare with DocTime
         </h2>
         <p className="text-4xl py-6 text-gray-500">

@@ -4,9 +4,12 @@ import './index.css'
 import App from './App.jsx'
 import { RouterProvider } from 'react-router-dom'
 import router from './router/Router.jsx'
+import ReduxWrapper from './pages/provider/ReduxWrapper.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <ReduxWrapper>
     <RouterProvider router={router} />
+    </ReduxWrapper>
   </StrictMode>,
 )
