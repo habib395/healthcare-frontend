@@ -11,7 +11,6 @@ const SocialIconMap = {
     FaYoutube: FaYoutube,
 };
 
-
 const Footer = () => {
   const { 
     data: footerInfo, 
@@ -42,11 +41,9 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-
             <p className="text-gray-200 text-sm max-w-sm leading-relaxed">
               {footerData.company_bio}
             </p>
-
             <div className="flex gap-4 pt-2">
               {footerData.social_links.map((link, index) => {
                   const IconComponent = SocialIconMap[link.icon_name];
