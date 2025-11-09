@@ -17,6 +17,7 @@ const Footer = () => {
     isLoading, 
     isError 
   } = useGetFooterInfoQuery();
+  console.log(footerInfo)
 
   if (isLoading) return <div className="text-center font-bold py-64">Loading Footer...</div>;
   if (isError) return <div>Error loading footer data.</div>;
