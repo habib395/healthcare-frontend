@@ -62,7 +62,7 @@ const Home = () => {
       <div className="hidden sm:block">
         <Blogs />
       </div>
-      <div className="hidden">
+      <div className="hidden sm:block">
         <Faq />
       </div>
       <div className="hidden sm:block">
