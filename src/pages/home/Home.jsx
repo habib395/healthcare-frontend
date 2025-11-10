@@ -55,7 +55,7 @@ const Home = () => {
       <div className="hidden sm:block">
         <Reviews />
       </div>
-      <div className="w-5/6 mx-auto hidden sm:block">
+      <div className="hidden sm:block">
         <Download />
       </div>
       <hr />

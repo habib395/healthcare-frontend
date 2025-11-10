@@ -1,7 +1,9 @@
 import React from "react";
 import Button from '../../shared/Button';
+import { useGetMediaInfoQuery } from "../provider/home/mediaApiSlice";
 
 const MassMedia = () => {
+  const { data, isLoading, isError } = useGetMediaInfoQuery();
   return (
     <div className="bg-gray-100 py-20">
       <div className="w-2/3 mx-auto">
